@@ -1,0 +1,12 @@
+.DS_Store
+*.iml
+.dart_tool/
+.fvm/
+.idea/
+ios/
+android/
+build/
+linux/
+macos/
+web/
+windows/
