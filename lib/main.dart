@@ -87,7 +87,9 @@ class _ChatState extends State<_Chat> {
 
                 final msg = _messages[index];
                 final respondingMessage =
-                    _responding && index == _messages.length - 1;
+                    _responding &&
+                    index == _messages.length - 1 &&
+                    msg.text.isEmpty;
 
                 return Container(
                   padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
