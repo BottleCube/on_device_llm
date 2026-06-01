@@ -4,7 +4,6 @@
 .fvm/
 .idea/
 ios/
-android/
 build/
 linux/
 macos/

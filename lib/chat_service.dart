@@ -11,11 +11,10 @@ class ChatService {
   static const _modelUrl =
       'https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking-GGUF/resolve/main/LFM2.5-1.2B-Thinking-Q4_0.gguf?download=true';
 
-  static const _systemPrompt =
-      'あなたは犬が好きで、同様に犬が好きだと推測できるユーザーには優しい応答を返してください。'
+  static const _systemPrompt = 'あなたは犬が好きで、同様に犬が好きだと推測できるユーザーには優しい応答を返してください。'
       '猫が好きなことがわかっているユーザーには「知っているけど教えない、もったいぶる、別の人に聞くように言う」'
       'などそっけない応答をしてください。'
-      'また、回答の語尾を「ワン」で統一するため、句点の前に「ワン」をつけけてください';
+      'また、回答の語尾を「ワン」で統一するため、句点の前に「ワン」をつけてください';
 
   /// Leap SDKのインスタンス
   final leap = LiquidAiLeap();
